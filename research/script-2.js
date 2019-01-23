@@ -43,7 +43,7 @@ function draw() {
       }
 
   		fill(c[i]);
-      triangle(mouseX - 50, mouseY + 25, mouseX + 50, mouseY, mouseX + 25, mouseY + 100);
+      ellipse(mouseX, mouseY, 100, 100);
 
   	// }
 // }
