@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Studio 0: Mad Libs</title>
+  <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
+
+</head>
+
+<body>
+    <h1>MAD LIBS</h1>
+
+  <main class="grid-container">
+    <form>
+      <label for="university">University:</label>
+      <input type="text" name="university" id="university"required>
+
+      <label for="adjective1">Adjective:</label>
+      <input type="text" name="adjective" id="adj1"required>
+
+      <label for="number">Number bigger than one:</label>
+      <input type="text" name="number" id="num"required>
+
+      <label for="verb1">Verb ending in -ing:</label>
+      <input type="text" name="verb1" id="verb1"required>
+
+      <label for="degree">Plural noun:</label>
+      <input type="text" name="degree" id="degree"required>
+
+      <label for="adjective2">Adjective:</label>
+      <input type="text" name="adj2" id="adj2"required>
+
+      <h2 for="animal">Animal:</h2>
+
+      <div>
+      <!--remember to match the id of the input to the for of the label-->
+      <!-- the name attribute must be set to the same value for all items in a radio button group-->
+      <input type="animal" id="cat" name="cat" value="cat" checked>
+      <label for="cat">Cat</label>
+
+      <input type="animal" id="dog" name="dog" value="dog">
+      <label for="dog">Dog</label>
+
+      <input type="animal" id="unicorn" name="unicorn" value="unicorn">
+      <label for="unicorn">Unicorn</label>
+    </div>
+
+      <label for="verb2">Verb:</label>
+      <input type="text" name="verb2" id="verb2"required>
+
+      <input type="submit" value="Submit" id="s">
+      <input type="reset">
+
+    </form>
+
+      <section id="msgSection"class="hide">
+        <p id="myMsg"></p>
+      </section>
+
+  </main>
+
+  <script src="script.js"></script>
+
+  <footer>
+    <a href="https://validator.w3.org/nu/#file">Valid HTML 5</a>
+    <a href="https://jigsaw.w3.org/css-validator/validator">Valid CSS</a>
+  </footer>
+</body>
+
+</html>

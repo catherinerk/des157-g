@@ -1,0 +1,161 @@
+
+#msgSection {
+  width: 50%;
+  padding: 2em;
+  margin: 2em 12em;
+  border-radius: 12px;
+  background-color:lightblue;
+}
+
+#myMsg {
+  font-size:1.5em;
+}
+
+.hide {
+  opacity:0;
+  transition:opacity 2s;
+}
+
+.show {
+  opacity:1;
+  transition:opacity 2s;
+}
+
+body {
+  align-content: center;
+  background: #feedea;
+  color: #ffaa97;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: .9em;
+  width: 80%;
+  margin: auto;
+  letter-spacing: .03em;
+}
+label, input{
+  display:block;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 15px;
+  width: 90%;
+  margin: auto;
+}
+
+
+header {
+  width: 100%;
+  margin: auto;
+  /*must set width */
+  text-align: center;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #fdcaaa;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: .03em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1em;
+}
+
+input[type=text] {
+  padding: 5px;
+  border: 2px solid #ffff;
+  border-radius: 5px;
+  width: 80%;
+}
+
+div {
+  display: flex;
+  align-items: flex-start;
+  border:0;
+}
+
+input[type="animal"]{
+  /* vendor prefixes required...but not best solution in the big picture of standards */
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  width: 10px;
+  height:10px;
+  margin-right: 5px;
+  border-radius: 50%;
+  border: 2px solid #999;
+  outline: none;
+  transition: 0.2s all linear;
+}
+input:checked {
+  border: 28px solid black;
+}
+
+input[type=submit],
+input[type=reset] {
+  padding: 5px 15px;
+  background: #ff7f78;
+  border: none;
+  border-radius: 5px;
+  color: #ffff;
+  width: 40%;
+  text-align: center;
+}
+input[type="submit"]:hover, input[type=reset]:hover {
+  background-color: #fdcaaa;
+}
+
+
+#msgSection {
+  width: 50%;
+  min-width: 300px;
+  padding: 2em;
+  margin: 1% 12%;
+  border-radius: 12px;
+  /*background-color: lightblue;*/
+}
+
+#myMsg {
+  font-size:1.5em;
+}
+
+footer {
+  background-color: #becbd4;
+  text-align: center;
+  padding: .7rem;
+  margin-top: 200px;
+  font-size: 1em;
+  color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+a {
+  color: white;
+  font-size: .7em;
+  font-family: 'Lato', sans-serif;
+}
+
+a:hover {
+  color: #ff7f78;
+  text-decoration: line-through;
+  cursor: auto;
+}
+
+.hide {
+  opacity:0;
+  transition:opacity 2s;
+}
