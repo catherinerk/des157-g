@@ -1,28 +1,21 @@
 "use strict";
- console.log('reading js');
-/*capture the submit event with an event listener for onclick and a callback function of processForm
- */
-//document.querySelector('#s').addEventListener('click', processForm);
+ console.log('reading js-gd');
+
 var responseAnimal;
-
 var animalButtons = document.querySelectorAll('#animal input[type="radio"]');
-
 document.querySelector('form').addEventListener('submit', processForm);
-document.querySelector('msgSection').addEventListener('click', resetForm);
+document.querySelector('#msgSection').addEventListener('click', resetForm);
 
-for(var i=0; i<animalButton.length; i++){
-  animalButtons[i].addEventListener('click', whichAnimal);
-}
+// for(var i=0; i<animalButtons.length; i++){
+//   // animalButtons[i].addEventListener('click', whichAnimal);
+// }
 
 function whichAnimal(){
   responseAnimal = this.getAttribute('value');
   console.log('response:' + responseAnimal);
 }
 
-submit.addEventListener('click', processForm);
-
-
-    function processForm(evt) {
+function processForm(evt) {
 
 
     var university = document.querySelector('#university').value;
@@ -44,17 +37,17 @@ submit.addEventListener('click', processForm);
    var myMsg = document.querySelector("#myMsg");
    var msgSection = document.querySelector("#msgSection");
 
+   msgSection.className='show';
+
 
 
    document.querySelector('#myMsg').innerHTML = 'You are finally graduating from' + university + ', the most ' + adj1 + ' university, after being there for ' + num + 'years. You have been ' + verb1 + 'for your major in ' + degree + '. You should adopt a '+ adj2 + responseAnimal + ' that will '+ verb2 +'you forever.';
 
    evt.preventDefault();
 
-
 }
 
 
 function resetForm() {
   myMsg.style.display = 'none';
-  resetForm.style.display = 'none';
 }
