@@ -33,18 +33,18 @@
       <label for="adjective2">Adjective:</label>
       <input type="text" name="adj2" id="adj2"required>
 
-      <h2 for="animal">Animal:</h2>
+      <h2>Animal:</h2>
 
-      <div>
+      <div id="animal">
       <!--remember to match the id of the input to the for of the label-->
       <!-- the name attribute must be set to the same value for all items in a radio button group-->
-      <input type="animal" id="cat" name="cat" value="cat" checked>
+      <input type="radio" id="cat" name="animal" value="cat" checked>
       <label for="cat">Cat</label>
 
-      <input type="animal" id="dog" name="dog" value="dog">
+      <input type="radio" id="dog" name="animal" value="dog">
       <label for="dog">Dog</label>
 
-      <input type="animal" id="unicorn" name="unicorn" value="unicorn">
+      <input type="radio" id="unicorn" name="animal" value="unicorn">
       <label for="unicorn">Unicorn</label>
     </div>
 
@@ -56,17 +56,19 @@
 
     </form>
 
-      <section id="msgSection"class="hide">
+      <!-- <section id="msgSection"class="hide">
         <p id="myMsg"></p>
-      </section>
+      </section> -->
 
   </main>
 
   <script src="script.js"></script>
 
   <footer>
-    <a href="https://validator.w3.org/nu/#file">Valid HTML 5</a>
-    <a href="https://jigsaw.w3.org/css-validator/validator">Valid CSS</a>
+    <a href="https://validator.w3.org/check?uri=referer">Valid HTML 5</a>
+
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a>
+
   </footer>
 </body>
 
