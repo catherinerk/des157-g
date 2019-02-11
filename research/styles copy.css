@@ -1,0 +1,81 @@
+body {
+  align-content: center;
+  background: #feedea;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1em;
+  margin-bottom: 200px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-row-gap: 10px;
+  width: 80%;
+  margin: auto;
+}
+
+#mySketch {
+  background-color: #feedea;
+  margin-bottom: 2rem;
+  height: 250px;
+  width: 800px;
+  margin: auto;
+}
+
+header {
+  width: 100%;
+  margin: auto; /*must set width */
+  text-align: center;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: .03em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+footer {
+  background-color: #becbd4;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 200px;
+  font-size: 1em;
+  color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.studios {
+  background: #fdcaaa;
+}
+
+.research {
+  background: #ffaa97;
+}
+
+.development {
+  background: #ff7f78;
+}
+
+a {
+  color: white;
+  font-size: .7em;
+  font-family: 'Lato', sans-serif;
+
+}
+a:hover{
+	color:#becbd4;
+	text-decoration: line-through;
+	cursor: auto;
+}
