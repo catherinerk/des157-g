@@ -1,5 +1,5 @@
 console.log('reading js');
-// use 'strict';
+'use strict';
 
 var bp = document.querySelector('#bp');
 var overlay = document.querySelector('#overlay');
