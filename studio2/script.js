@@ -11,35 +11,35 @@ var headphones = document.querySelector('#headphones');
 var overlay3 = document.querySelector('#overlay3');
 var close3 = document.querySelector('#close3');
 
-document.getElementById('bp').addEventListener('click',function(){
- overlay.style.display='block';
+document.getElementById('bp').addEventListener('click', function() {
+  overlay.style.display = 'block';
 });
 
 
-document.getElementById('close').addEventListener('click',function(){
-  overlay.style.display='none';
+document.getElementById('close').addEventListener('click', function() {
+  overlay.style.display = 'none';
 });
 
-document.getElementById('ipad').addEventListener('click',function(){
- overlay2.style.display='block';
+document.getElementById('ipad').addEventListener('click', function() {
+  overlay2.style.display = 'block';
 });
 
-  document.getElementById('close2').addEventListener('click',function(){
-    overlay2.style.display='none';
+document.getElementById('close2').addEventListener('click', function() {
+  overlay2.style.display = 'none';
 });
 
-document.getElementById('headphones').addEventListener('click',function(){
- overlay3.style.display='block';
+document.getElementById('headphones').addEventListener('click', function() {
+  overlay3.style.display = 'block';
 });
 
-  document.getElementById('close3').addEventListener('click',function(){
-    overlay3.style.display='none';
+document.getElementById('close3').addEventListener('click', function() {
+  overlay3.style.display = 'none';
 });
 
-document.getElementById('chapstick').addEventListener('click',function(){
- overlay4.style.display='block';
+document.getElementById('chapstick').addEventListener('click', function() {
+  overlay4.style.display = 'block';
 });
 
-  document.getElementById('close4').addEventListener('click',function(){
-    overlay4.style.display='none';
+document.getElementById('close4').addEventListener('click', function() {
+  overlay4.style.display = 'none';
 });

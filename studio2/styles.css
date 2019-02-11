@@ -1,89 +1,97 @@
-* {box-sizing: border-box;}
+* {
+  box-sizing: border-box;
+}
 
 .wrapper {
-    max-width: 940px;
-    margin:auto 0 auto;
+  max-width: 940px;
+  margin: auto 0 auto;
 }
 
-.wrapper > div {
-    grid-gap: 10%;
-    color: #ffaa97;
-    font-size: 1em;
+.wrapper>div {
+  grid-gap: 10%;
+  color: #ffaa97;
+  font-size: 1em;
 }
+
 .backpack {
-    grid-area: hd;
+  grid-area: hd;
 }
+
 .ipad {
-    grid-area: ft;
+  grid-area: ft;
 }
+
 .headphones {
-    grid-area: main;
+  grid-area: main;
 }
+
 .chapstick {
-    grid-area: sd;
+  grid-area: sd;
 }
 
 .wrapper {
-    display: grid;
-    grid-template-columns: 1.5fr 1fr;
-    grid-template-areas:
-      "hd main"
-      "hd sd"
-      "hd ft";
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  grid-template-areas:
+    "hd main"
+    "hd sd"
+    "hd ft";
 }
-
 
 #overlay {
   padding-top: 20%;
   grid-template-columns: 1fr 1fr 1fr;
   position: absolute;
-    top: 0;
-  right: 100;
+  top: 0;
   width: 100%;
   height: 100%;
   display: none;
   justify-items: center;
 }
+
 #bp {
   /* position: relative;
   text-align: center;
   width: 50%;
   margin:auto; */
-    justify-items: center;
-    display: block;
-    margin-left: 10%;
-    margin-right: auto;
-    width: 50%;
-    padding: 5%
+  justify-items: center;
+  display: block;
+  margin-left: 10%;
+  margin-right: auto;
+  width: 50%;
+  padding: 5%
 }
-#ipad{
-  margin:auto;
+
+#ipad {
+  margin: auto;
   display: block;
   width: 32%;
 }
-#headphones{
-  margin:auto;
+
+#headphones {
+  margin: auto;
   display: block;
   width: 50%;
 }
-#chapstick{
-  margin:auto;
+
+#chapstick {
+  margin: auto;
   display: block;
   width: 30%;
 }
+
 #overlay2 {
   grid-template-columns: 2fr 2fr;
   background-color: rgba(255, 255, 255, 0.97);
   color: black;
   position: absolute;
   font-size: 2em;
-  top:0;
+  top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   display: none;
   justify-items: center;
-
 }
 
 #overlay3 {
@@ -92,12 +100,11 @@
   color: black;
   position: absolute;
   font-size: 2em;
-  top:0;
+  top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   display: none;
-
 }
 
 #overlay4 {
@@ -106,31 +113,32 @@
   color: black;
   position: absolute;
   font-size: 2em;
-  top:0;
+  top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   display: none;
 }
 
-p{
+p {
   position: absolute;
   font-size: 1em;
-  top:0;
+  top: 0;
   right: 0;
-  display:block;
+  display: block;
   padding: 35%;
   text-align: left;
 }
 
-#ipad2{
+#ipad2 {
   width: 40%;
   position: absolute;
   top: 6em;
   left: .5em;
   padding: 10%;
 }
-#headphones2{
+
+#headphones2 {
   width: 50%;
   position: absolute;
   top: 6em;
@@ -138,7 +146,8 @@ p{
   padding: 1em;
   padding-right: 20%
 }
-#chapstick2{
+
+#chapstick2 {
   width: 30%;
   position: absolute;
   top: 6em;
@@ -157,11 +166,13 @@ p{
   top: 1em;
   right: 1em;
 }
+
 #close3 {
   position: absolute;
   top: 1em;
   right: 1em;
 }
+
 #close4 {
   position: absolute;
   top: 1em;
@@ -176,21 +187,23 @@ h1 {
   letter-spacing: .03em;
   text-align: center;
 }
-h2{
-  margin:auto;
+
+h2 {
+  margin: auto;
   display: block;
   text-align: center;
 }
+
 body {
   align-content: center;
   /*background: #feedea;*/
-  margin:auto;
+  margin: auto;
   display: block;
   color: #ffaa97;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: .9em;
   width: 100%;
-  max-width:768px;
+  max-width: 768px;
   max-height: 1024px;
   letter-spacing: .03em;
 }
@@ -208,11 +221,10 @@ footer {
   width: 100%;
 }
 
-img{
+img {
   padding: 1em;
   width: 60%;
   margin: auto;
-
 }
 
 a {
@@ -229,17 +241,17 @@ a:hover {
 
 @media only screen and (min-width: 769px) {
   .wrapper {
-     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 3fr 3fr;
-      grid-template-areas:
-        "hd hd hd"
-        "sd main ft";
+    grid-template-areas:
+      "hd hd hd"
+      "sd main ft";
   }
 
   body {
     align-content: center;
     /*background: #feedea;*/
-    margin:auto;
+    margin: auto;
     display: block;
     color: #ffaa97;
     font-family: 'Source Sans Pro', sans-serif;
@@ -250,7 +262,7 @@ a:hover {
   }
 
   #overlay {
-    padding-top: 35%;
+    padding-top: 25%;
     grid-template-columns: 1fr 1fr 1fr;
     /* position: absolute;
       top: 0;
@@ -267,51 +279,58 @@ a:hover {
   #bp {
     position: relative;
     text-align: center;
-    margin:auto;
+    margin: auto;
     width: 35%;
   }
-  #ipad{
-    margin:auto;
+
+  #ipad {
+    margin: auto;
     display: block;
     width: 20%;
   }
-  #headphones{
-    margin:auto;
+
+  #headphones {
+    margin: auto;
     display: block;
     width: 40%;
   }
-  #chapstick{
-    margin:auto;
+
+  #chapstick {
+    margin: auto;
     display: block;
     width: 20%;
   }
-  #ipad2{
+
+  #ipad2 {
     width: 12%;
     position: absolute;
     top: 6em;
     left: .5em;
     padding: 2em;
   }
-  #headphones2{
+
+  #headphones2 {
     width: 20%;
     position: absolute;
     top: 6em;
     left: 1em;
     padding: 1em;
   }
-  #chapstick2{
+
+  #chapstick2 {
     width: 20%;
     position: absolute;
     top: 6em;
     left: 1em;
     padding: 1em;
   }
-  p{
+
+  p {
     position: absolute;
     font-size: 1em;
-    top:0;
+    top: 0;
     right: 0;
-    display:block;
-    padding: 1em;
+    display: block;
+    padding: 2em;
   }
 }
