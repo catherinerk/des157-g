@@ -1,16 +1,17 @@
 body {
   align-content: center;
   background: #feedea;
-  color: white;
+  color: #ff7f78;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1em;
-  margin-bottom: 200px;
+  display: inline;
+  /*margin-bottom: 200px;*/
 }
 
 .grid-container {
-  display: grid;
+  /* display: grid;
   grid-template-rows: 1fr 1fr;
-  grid-row-gap: 10px;
+  grid-row-gap: 10px; */
   width: 80%;
   margin: auto;
 }
@@ -41,6 +42,8 @@ h1 {
 
 h2 {
   font-size: 1.5em;
+  color:#ffaa97;
+
 }
 
 footer {
@@ -67,6 +70,8 @@ footer {
 .development {
   background: #ff7f78;
 }
+
+
 
 a {
   color: white;
