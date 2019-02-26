@@ -41,7 +41,7 @@ function processForm(evt) {
 
 
 
-   document.querySelector('#myMsg').innerHTML = 'You are finally graduating from' + university + ', the most ' + adj1 + ' university, after being there for ' + num + 'years. You have been ' + verb1 + 'for your major in ' + degree + '. You should adopt a '+ adj2 + responseAnimal + ' that will '+ verb2 +'you forever.';
+   document.querySelector('#myMsg').innerHTML = 'You are finally graduating from ' + university + ', the most ' + adj1 + ' university, after being there for ' + num + ' years. You have been ' + verb1 + ' for your major in ' + degree + '. You should adopt a '+ adj2 + ' ' + responseAnimal + ' that will '+ verb2 +' you forever.';
 
    evt.preventDefault();
 
