@@ -6,9 +6,9 @@ var animalButtons = document.querySelectorAll('#animal input[type="radio"]');
 document.querySelector('form').addEventListener('submit', processForm);
 document.querySelector('#msgSection').addEventListener('click', resetForm);
 
-// for(var i=0; i<animalButtons.length; i++){
-//   // animalButtons[i].addEventListener('click', whichAnimal);
-// }
+for(var i=0; i<animalButtons.length; i++){
+  animalButtons[i].addEventListener('click', whichAnimal);
+}
 
 function whichAnimal(){
   responseAnimal = this.getAttribute('value');
