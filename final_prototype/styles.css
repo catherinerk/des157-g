@@ -1,0 +1,127 @@
+header{
+  align-content: center;
+  background: #fafafa;
+  color: black;
+  font-family: 'helvetica';
+  font-size: 1rem;
+  height: 5%;
+  margin: auto;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  margin-bottom: 10%;
+  box-shadow: 0px 0px 30px grey;
+  background-blend-mode: multiply;
+}
+
+#space{
+  height: 100px;
+}
+
+#myProfile{
+  position: absolute;
+  top: 10%;
+  /* border-radius: 50%; */
+  display: inline-block;
+  background-color: white;
+}
+
+.info{
+  display:inline;
+  position: absolute;
+  right:7%;
+  top: 7%;
+  width:30%;
+  text-align: center;
+  z-index: 2;
+}
+
+body{
+  height: 90%;
+  background-color: white;
+  color:black;
+  font-family: 'helvetica';
+  font-size: 1em;
+}
+.top{
+    padding-left: 5%;
+    padding-bottom: 15%;
+    padding-top:13%;
+    z-index: 2;
+    position: absolute;
+    top: 10%;
+
+}
+
+h1{
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
+
+.grid-container{
+  margin:auto;
+  align-content: center;
+}
+
+.square {
+  height: 33vw;
+  width: 33vw;
+  background-color: #555;
+  display: inline-block;
+  margin:auto;
+
+}
+#blotter-container{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+nav {
+  background-color: white;
+  position: fixed;
+  bottom: 35px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: auto;
+  padding-top: 1.7vmax;
+  padding-bottom: 1.7vmax;
+  color: #0000ff;
+  box-shadow: 0px 0px 30px grey;
+  z-index: 3;
+}
+
+div.navIcon {
+  margin: auto;
+  justify-content: space-around;
+  border-color: grey;
+}
+
+
+footer{
+  background-color: #bbb;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 200px;
+  font-size: 1em;
+  color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+a {
+  color: white;
+  font-size: .7em;
+  font-family: 'Lato', sans-serif;
+
+}
+a:hover{
+	color:#becbd4;
+	text-decoration: line-through;
+	cursor: auto;
+}
